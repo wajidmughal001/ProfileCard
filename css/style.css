@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../imgs/bg-pattern-bottom.svg);
+
+  background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
+.card {
+  width: 30vw;
+  height: 60vh;
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 8rem;
+}
+.card-top {
+  background: url(../imgs/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
